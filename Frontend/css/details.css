@@ -1,0 +1,206 @@
+.cafe-details-page {
+  background-color: white;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.section-wrapper {
+  position: relative;
+  margin-bottom: 10px;
+  min-width: 320px;
+  padding-bottom: 73%;
+  display: block;
+}
+
+.section-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.main-details {
+  width: 100%;
+}
+
+.details {
+  background-color: rgba(150, 150, 150, 0.1);
+}
+
+.details-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-wrapper {
+  background-color: rgba(225, 225, 225, 0.8);
+  border-radius: 3px;
+  padding-bottom: 10px;
+}
+
+.details-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #584d3d;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.room-title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.room-p {
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+
+.p-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  line-height: 250%;
+}
+
+.tel:hover {
+  color: #ba5a31;
+}
+
+.red {
+  color: #ba5a31;
+}
+
+.redish {
+  color: #ba5a31;
+  font-weight: 700;
+}
+
+.contact-link {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-link:hover {
+  color: #ba5a31;
+}
+
+.reviews-button {
+  padding: 5px 40px 5px 40px;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-details {
+    width: inherit;
+  }
+
+  .section-wrapper {
+    min-width: 364px;
+    margin: 10px;
+  }
+
+  .text-wrapper {
+    min-width: 320px;
+    padding-top: 10px;
+  }
+
+  .room-title {
+    font-size: 30px;
+  }
+
+  .contact-title {
+    font-size: 30px;
+  }
+
+  .contact-p {
+    font-size: 20px;
+  }
+
+  .contact-link {
+    font-size: 18px;
+  }
+
+  .room-title {
+    font-size: 40px;
+  }
+
+  .room-p {
+    font-size: 25px;
+    line-height: 2.5;
+  }
+
+  .reviews-button {
+    padding: 8px 40px 8px 40px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-wrapper {
+    width: 650px;
+    margin: 10px;
+  }
+  .contact-title {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+
+  .contact-p {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+
+  .room-title {
+    font-size: 50px;
+  }
+
+  .room-p {
+    font-size: 30px;
+  }
+  .p-container {
+    padding: 20px;
+    line-height: 400%;
+  }
+
+  .contact-link {
+    font-size: 28px;
+    font-family: Cardo, serif;
+  }
+}

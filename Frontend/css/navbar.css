@@ -1,0 +1,121 @@
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1px solid #969696;
+  height: 60px;
+  color: #584d3d;
+  background-color: white;
+}
+
+.cafes {
+  margin-right: 30px;
+}
+
+.logo {
+  height: 25px;
+}
+
+.allCafes {
+  text-decoration: none;
+  font-size: 11px;
+  background-color: #ba5a31;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  width: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.allCafes:hover {
+  background-color: #d69f73;
+}
+
+.search-list {
+  display: flex;
+}
+
+.searchTermList {
+  width: 80px;
+  background-size: 20px;
+  background-color: white;
+  border-top: 0.5px solid rgba(87, 77, 61, 0.2);
+  border-bottom: 0.5px solid rgba(87, 77, 61, 0.2);
+  border-left: 0.5px solid rgba(87, 77, 61, 0.2);
+  border-right: 1px solid white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  height: 15px;
+  outline: none;
+  color: #584d3d;
+  font-size: 12px;
+  font-family: "Cardo", serif;
+  font-style: italic;
+  padding-right: 0;
+  margin-right: -6px;
+}
+
+.submit-search {
+  background-image: url("/magnifying-glass.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  width: 20px;
+  border-radius: 2px;
+  border-top: 0.5px solid rgba(87, 77, 61, 0.2);
+  border-right: 0.5px solid rgba(87, 77, 61, 0.2);
+  border-bottom: 0.5px solid rgba(87, 77, 61, 0.2);
+  border-left: 1px solid rgba(87, 77, 61, 0.2);
+  background-color: #584d3d;
+  padding: 0;
+  margin: 0;
+}
+
+.submit-search:hover {
+  cursor: pointer;
+  background-color: #584d3dde;
+}
+
+.submit-search:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .searchTermList {
+    width: 490px;
+    font-size: 16px;
+    height: 20px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .allCafes {
+    width: 100px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .searchTermList {
+    width: 490px;
+    font-size: 16px;
+    height: 20px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .allCafes {
+    width: 100px;
+    font-size: 16px;
+  }
+
+  .submit-search {
+    background-size: 25px;
+    width: 10%;
+  }
+}

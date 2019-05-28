@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 0.1px solid #969696;
+}
+
+.owner-button {
+  /* position: absolute; */
+  /* margin-bottom: 10px; */
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #584d3d;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.owner-button:hover {
+  color: #ba5a31;
+}
+
+.owner-button:focus {
+  outline: 0;
+}
+
+.social {
+  height: 15px;
+  margin: 5px;
+}
+
+.foot-logo {
+  height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    height: 25px;
+  }
+
+  .owner-button {
+    font-size: 14px;
+  }
+
+  .foot-logo {
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .social {
+    height: 25px;
+  }
+  .owner-button {
+    font-size: 14px;
+  }
+
+  .foot-logo {
+    height: 28px;
+  }
+}

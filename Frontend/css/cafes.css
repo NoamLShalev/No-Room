@@ -1,0 +1,119 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: white;
+}
+
+.cafe-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  padding-bottom: 15px;
+  position: relative;
+  width: 375px;
+  line-height: 2.5;
+  font-size: 16px;
+  border: solid white;
+  background-color: rgba(254, 231, 217, 0.6);
+}
+
+.cafe-photo {
+  width: 400px;
+  height: 248px;
+  background-color: white;
+}
+
+.photo-title {
+  z-index: 1;
+  top: 20%;
+  position: absolute;
+  font-size: 26px;
+  border: 1px solid rgba(87, 77, 61, 0.2);
+  border-radius: 5px;
+  padding: 0px 20px;
+  font-weight: bold;
+  background-color: rgba(225, 225, 225, 0.9);
+}
+
+.desc {
+  align-content: center;
+  line-height: 1.5;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.button-left {
+  background-color: rgba(236, 200, 175, 0.7);
+  position: absolute;
+  top: 117px;
+  left: 0px;
+  height: 30px;
+  width: 22px;
+  z-index: 1;
+  border: none;
+  border-radius: 0 16px 16px 0;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-right {
+  background-color: rgba(236, 200, 175, 0.7);
+  z-index: 1;
+  top: 117px;
+  right: 0px;
+  height: 30px;
+  width: 22px;
+  z-index: 1;
+  border: none;
+  border-radius: 16px 0px 0px 16px;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+  color: #fff;
+  position: absolute;
+  cursor: pointer;
+}
+
+.button-right:hover {
+  background-color: rgba(186, 90, 49, 0.9);
+}
+
+.button-left:hover {
+  background-color: rgba(186, 90, 49, 0.9);
+}
+
+.button-right:focus {
+  outline: 0;
+}
+
+.button-left:focus {
+  outline: 0;
+}
+
+.global {
+  min-height: calc(100vh - 40px);
+}
+
+@media screen and (min-width: 768px) {
+  .cafe-card {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}

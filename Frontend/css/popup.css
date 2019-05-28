@@ -1,0 +1,113 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+.popup_inner {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+  max-width: 500px;
+  min-width: 500px;
+  max-height: 300px;
+  min-height: 300px;
+  z-index: 20;
+}
+
+.popup-inner-add-review {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: white;
+  max-width: 500px;
+  min-width: 320px;
+  max-height: 350px;
+  min-height: 350px;
+  z-index: 20;
+}
+
+.popup-inner-reviews {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 90%;
+  width: 100%;
+  overflow: scroll;
+  background: white;
+  z-index: 20;
+}
+
+.form-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+}
+
+.welcome-button {
+  border: none;
+  font-family: "Cardo", serif;
+  font-size: 15px;
+  padding: 0;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  color: #ba5a31;
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.welcome-button:focus {
+  outline: 0;
+}
+
+.welcome-button:focus {
+  outline: 0;
+}
+
+.close-button {
+  position: absolute;
+  margin-top: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.close-button-reviews {
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid #969696;
+  background-color: white;
+  right: 5px;
+  top: 5px;
+  z-index: 100;
+  padding: 5px 9px 5px 9px;
+  border-radius: 50%;
+}
